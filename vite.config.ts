@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
         host: '0.0.0.0',
       },
       plugins: [react()],
-      base: '/kunal-jadhav-portfolio/',
+      base: '/portfolio/',
       resolve: {
         alias: {
           '@': path.resolve(__dirname, '.'),
